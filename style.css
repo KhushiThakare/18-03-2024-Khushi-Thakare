@@ -1,0 +1,35 @@
+
+.main{
+    
+    border-style: groove;
+    display: flex;
+    margin-left: 18%;
+    margin-right:18% ;
+} 
+.container1{
+    background-color: white;
+    color: black;
+    margin-left: 4%;
+    width: 70%;
+    flex-direction: column;
+}
+.container2{
+    background-color: rgb(5, 118, 82);
+    color: white;
+    margin-left: 4%;
+    padding: 4%;
+    padding-top: 15%;
+    flex-direction: column;
+}
+.right-content{
+   margin-top: 10%;
+}
+@media screen and (max-width: 700px){
+    .container1{
+       flex-direction: column-reverse;
+
+    }
+    .container2{
+        flex-direction: column-reverse;
+    }
+}
